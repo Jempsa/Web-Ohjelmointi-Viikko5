@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f802d7;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px; 
+}
+
+h1 {
+    font-family: 'Times New Roman', serif; 
+    font-style: italic; 
+    font-size: 55px; 
+    color: #000000; 
+}
+
+#container {
+    text-align: center;
+}
+
+#dice {
+    cursor: pointer;
+}
+
+#dice img {
+    width: 300px; 
+    height: auto;
+    transition: transform 0.1s ease-in-out; 
+}
+
+#dice:active img {
+    transform: rotate(360deg); 
+}
